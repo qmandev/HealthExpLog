@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C8D0D52432C33100EA66FD /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C8D0D42432C33000EA66FD /* KeyboardResponder.swift */; };
 		A9D31EBA23DA2AD7000CB661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EB923DA2AD7000CB661 /* AppDelegate.swift */; };
 		A9D31EBC23DA2AD7000CB661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EBB23DA2AD7000CB661 /* SceneDelegate.swift */; };
 		A9D31EBF23DA2AD7000CB661 /* HealthExpLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EBD23DA2AD7000CB661 /* HealthExpLog.xcdatamodeld */; };
-		A9D31EC123DA2AD7000CB661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EC023DA2AD7000CB661 /* ContentView.swift */; };
 		A9D31EC323DA2ADD000CB661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D31EC223DA2ADD000CB661 /* Assets.xcassets */; };
 		A9D31EC623DA2ADD000CB661 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D31EC523DA2ADD000CB661 /* Preview Assets.xcassets */; };
 		A9D31EC923DA2ADD000CB661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D31EC723DA2ADD000CB661 /* LaunchScreen.storyboard */; };
 		A9D31ED423DA2ADD000CB661 /* HealthExpLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31ED323DA2ADD000CB661 /* HealthExpLogTests.swift */; };
 		A9D31EDF23DA2ADD000CB661 /* HealthExpLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EDE23DA2ADD000CB661 /* HealthExpLogUITests.swift */; };
+		A9D31EEE23DC9D9C000CB661 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EED23DC9D9C000CB661 /* BottomSheetView.swift */; };
+		A9D31EF123DF2DDD000CB661 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EF023DF2DDD000CB661 /* Date+Ext.swift */; };
+		A9D31EF523DF65B2000CB661 /* NumberFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EF423DF65B2000CB661 /* NumberFormatter+Ext.swift */; };
+		A9D31EF923DF6655000CB661 /* ExpenseActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EF823DF6655000CB661 /* ExpenseActivity.swift */; };
+		A9D31EFB23DFBEB6000CB661 /* ExpenseDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EFA23DFBEB6000CB661 /* ExpenseDataStore.swift */; };
+		A9D31F0023DFC063000CB661 /* ExpenseFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31EFF23DFC063000CB661 /* ExpenseFormViewModel.swift */; };
+		A9D31F0223DFC084000CB661 /* ExpenseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31F0123DFC084000CB661 /* ExpenseDetailViewModel.swift */; };
+		A9D31F2423EB1A12000CB661 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31F2323EB1A12000CB661 /* DashboardView.swift */; };
+		A9D31F2623EB1A38000CB661 /* ExpenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31F2523EB1A38000CB661 /* ExpenseDetailView.swift */; };
+		A9D31F2823EB1A63000CB661 /* ExpenseFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D31F2723EB1A63000CB661 /* ExpenseFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9C8D0D42432C33000EA66FD /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		A9D31EB623DA2AD7000CB661 /* HealthExpLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthExpLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D31EB923DA2AD7000CB661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9D31EBB23DA2AD7000CB661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9D31EBE23DA2AD7000CB661 /* HealthExpLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthExpLog.xcdatamodel; sourceTree = "<group>"; };
-		A9D31EC023DA2AD7000CB661 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9D31EC223DA2ADD000CB661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D31EC523DA2ADD000CB661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9D31EC823DA2ADD000CB661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,16 @@
 		A9D31EDA23DA2ADD000CB661 /* HealthExpLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthExpLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D31EDE23DA2ADD000CB661 /* HealthExpLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthExpLogUITests.swift; sourceTree = "<group>"; };
 		A9D31EE023DA2ADD000CB661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D31EED23DC9D9C000CB661 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		A9D31EF023DF2DDD000CB661 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		A9D31EF423DF65B2000CB661 /* NumberFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Ext.swift"; sourceTree = "<group>"; };
+		A9D31EF823DF6655000CB661 /* ExpenseActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseActivity.swift; sourceTree = "<group>"; };
+		A9D31EFA23DFBEB6000CB661 /* ExpenseDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDataStore.swift; sourceTree = "<group>"; };
+		A9D31EFF23DFC063000CB661 /* ExpenseFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseFormViewModel.swift; sourceTree = "<group>"; };
+		A9D31F0123DFC084000CB661 /* ExpenseDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailViewModel.swift; sourceTree = "<group>"; };
+		A9D31F2323EB1A12000CB661 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A9D31F2523EB1A38000CB661 /* ExpenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailView.swift; sourceTree = "<group>"; };
+		A9D31F2723EB1A63000CB661 /* ExpenseFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +121,12 @@
 		A9D31EB823DA2AD7000CB661 /* HealthExpLog */ = {
 			isa = PBXGroup;
 			children = (
+				A9D31EFE23DFC03E000CB661 /* ViewModel */,
+				A9D31EF723DF663C000CB661 /* Model */,
+				A9D31EEF23DF2D74000CB661 /* Extension */,
+				A9D31EEC23DC9D6D000CB661 /* View */,
 				A9D31EB923DA2AD7000CB661 /* AppDelegate.swift */,
 				A9D31EBB23DA2AD7000CB661 /* SceneDelegate.swift */,
-				A9D31EC023DA2AD7000CB661 /* ContentView.swift */,
 				A9D31EC223DA2ADD000CB661 /* Assets.xcassets */,
 				A9D31EC723DA2ADD000CB661 /* LaunchScreen.storyboard */,
 				A9D31ECA23DA2ADD000CB661 /* Info.plist */,
@@ -137,6 +160,45 @@
 				A9D31EE023DA2ADD000CB661 /* Info.plist */,
 			);
 			path = HealthExpLogUITests;
+			sourceTree = "<group>";
+		};
+		A9D31EEC23DC9D6D000CB661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9D31EED23DC9D9C000CB661 /* BottomSheetView.swift */,
+				A9D31F2323EB1A12000CB661 /* DashboardView.swift */,
+				A9D31F2523EB1A38000CB661 /* ExpenseDetailView.swift */,
+				A9D31F2723EB1A63000CB661 /* ExpenseFormView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9D31EEF23DF2D74000CB661 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9D31EF023DF2DDD000CB661 /* Date+Ext.swift */,
+				A9D31EF423DF65B2000CB661 /* NumberFormatter+Ext.swift */,
+				A9C8D0D42432C33000EA66FD /* KeyboardResponder.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A9D31EF723DF663C000CB661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9D31EF823DF6655000CB661 /* ExpenseActivity.swift */,
+				A9D31EFA23DFBEB6000CB661 /* ExpenseDataStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9D31EFE23DFC03E000CB661 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A9D31EFF23DFC063000CB661 /* ExpenseFormViewModel.swift */,
+				A9D31F0123DFC084000CB661 /* ExpenseDetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +332,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D31EF523DF65B2000CB661 /* NumberFormatter+Ext.swift in Sources */,
+				A9D31F2423EB1A12000CB661 /* DashboardView.swift in Sources */,
 				A9D31EBA23DA2AD7000CB661 /* AppDelegate.swift in Sources */,
+				A9D31F2823EB1A63000CB661 /* ExpenseFormView.swift in Sources */,
+				A9D31EEE23DC9D9C000CB661 /* BottomSheetView.swift in Sources */,
 				A9D31EBF23DA2AD7000CB661 /* HealthExpLog.xcdatamodeld in Sources */,
-				A9D31EC123DA2AD7000CB661 /* ContentView.swift in Sources */,
+				A9D31F0223DFC084000CB661 /* ExpenseDetailViewModel.swift in Sources */,
+				A9D31EF123DF2DDD000CB661 /* Date+Ext.swift in Sources */,
+				A9D31F2623EB1A38000CB661 /* ExpenseDetailView.swift in Sources */,
+				A9C8D0D52432C33100EA66FD /* KeyboardResponder.swift in Sources */,
+				A9D31EF923DF6655000CB661 /* ExpenseActivity.swift in Sources */,
+				A9D31F0023DFC063000CB661 /* ExpenseFormViewModel.swift in Sources */,
 				A9D31EBC23DA2AD7000CB661 /* SceneDelegate.swift in Sources */,
+				A9D31EFB23DFBEB6000CB661 /* ExpenseDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +511,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthExpLog/Preview Content\"";
 				DEVELOPMENT_TEAM = 5JFJH6D423;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HealthExpLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.HealthExpLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -459,14 +534,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthExpLog/Preview Content\"";
 				DEVELOPMENT_TEAM = 5JFJH6D423;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HealthExpLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.armstrongmobile.HealthExpLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
