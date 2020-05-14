@@ -54,7 +54,7 @@ struct ExpenseFormView: View {
                           .foregroundColor(.primary)
                           .font(.title)
                   }.padding(.trailing, 5)
-              }.padding(.top, Device.IS_IPAD ? 120 : 20) // HStack
+              }.padding(.top, Device.IS_IPAD ? 145 : 20) // HStack
             
               Group {
                   if !expenseFormViewModel.isNameValid {
